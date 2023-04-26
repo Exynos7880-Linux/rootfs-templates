@@ -29,7 +29,7 @@ umount $IMG_MOUNTPOINT
 # generate flashable zip
 echo "Generating recovery flashable zip"
 wget https://cytranet.dl.sourceforge.net/project/exynos7880/vendor/vendor.img -O android-recovery-flashing-template/data/vendor.img
-wget https://github.com/Exynos7880-Linux/adaptation-samsung-a5y17lte/releases/download/adaptation/boot.img -O rootfs.img android-recovery-flashing-template/data/boot.img
+wget https://github.com/Exynos7880-Linux/adaptation-samsung-a5y17lte/releases/download/adaptation/boot.img -O android-recovery-flashing-template/data/boot.img
 mv rootfs.img android-recovery-flashing-template/data/rootfs.img
 (cd android-recovery-flashing-template ; zip -r9 ../out/$ZIP_NAME * -x .git README.md *placeholder)
 
