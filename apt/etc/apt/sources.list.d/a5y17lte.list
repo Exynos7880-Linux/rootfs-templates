@@ -1,0 +1,3 @@
+deb [signed-by=/var/lib/extrepo/keys/a5y17lte.gpg] https://exynos7880-linux.github.io/adaptation-samsung-a5y17lte bookworm main
+## libwlroots7d repo
+deb http://droidian-wlroots.repo.droidian.org/bookworm-g7-testing-again/ bookworm main
